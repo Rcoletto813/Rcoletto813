@@ -1,0 +1,138 @@
+/* Estilos globais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos específicos */
+
+header nav ul li a {
+    font-size: 20px;
+}
+
+section#sobre {
+    text-align: center;
+}
+
+section#sobre h1 {
+    font-size: 48px;
+}
+
+section#projetos ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#projetos li {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+section#projetos li:nth-child(3n) {
+    margin-right: 0;
+}
+
+section#projetos li a {
+    font-weight: bold;
+}
+
+section#projetos li p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+section#contato form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+section#contato form input,
+section#contato form textarea {
+    font-size: 16px;
+}
